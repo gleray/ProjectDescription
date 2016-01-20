@@ -1,0 +1,77 @@
+\documentclass[fleqn,a4paper,twoside,10pt]{article}
+\usepackage[headheight=0pt,headsep=0pt]{geometry}
+\usepackage[bookmarks,bookmarksnumbered,colorlinks,linkcolor=black,filecolor=black,urlcolor=black,citecolor=blue]{hyperref}
+\usepackage{mhchem}
+% Page format
+		
+		\setlength{\topmargin}{-5mm}
+		\setlength{\oddsidemargin}{-10mm}
+		\setlength{\evensidemargin}{-10mm}
+		\setlength{\leftmargin}{1mm}
+		\setlength{\textwidth}{180mm}
+		\setlength{\textheight}{250mm}
+		\setlength{\parskip}{0.8\baselineskip}
+		\setlength{\parindent}{0pt}
+		%\setlength{\bibsep}{0.05\baselineskip}
+		\setlength{\mathindent}{0pt}
+		\newcommand{\sups}[1]{$^\textrm{#1}$}
+\begin{document}
+%\centering 
+\begin{center}
+\LARGE{Appendix-1: PhD Project Description}
+\end{center}
+\normalsize
+\vspace{1cm}
+{\bf Candidate:} Guillaume Le Ray\\
+{\bf Period:} December 2015-December 2018\\
+{\bf Title:}Smart end user data analysis and pattern recognition
+\section{Background}
+	In recent years, the increasing energy demand from emerging economies as well as the increasing scarcity of fossil fuels has exacerbated concerns over the sustainability of current energy reserves on a global scale. Each state is securing its own energy supply, and considers exploring local resources, like unconventional fossil fuels (e.g.\ shale gas or tar sand) when available or renewable energy sources~\cite{ramchurn2012}. Unconventional fossil fuels are controversial as they have a limited supply and their extraction is politically and socially challenging as shown recently in France and in Denmark. Therefore, renewable energy sources remain as a sustainable solution for guaranteeing energy security. Policies have been implemented at the European level to increase the share of renewable sources in the energy mix and set targets for the next 5 to 35 years~\cite{2020}.
+
+	Denmark has one of the highest shares of energy from renewable sources, which stem from an ambitious energy strategy. Denmark set a target of a reduction of fossil fuel use in the energy sector by 33\% in 2020 (compared to 2009) to reach a fossil fuel free energy consumption by 2050. At the same time, the share of renewables will be increased to 60\% in 2020~\cite{2020DK}. The main issue with a high penetration of renewable energy sources is the risk of imbalance between the production and the demand, as it has to be used when it is generated and is often function of the weather conditions. Solutions exist like demand response, exploiting the potential flexibility of the demand to balance the system~\cite{Albadi2008} or energy storage. Demand response solutions consist of moving consumption in time towards periods of higher generation, in order to reduce peak load, as this peak could put the energy system at risk by creating large imbalance. The theory around demand response was initially discussed in the 1970s. However technology-wise it has only been realistic in recent last years thanks to the development of smart controllers/meters and communication technology's infrastructure~\cite{Strbac2008}. Nowadays, with smart metering expansion, demand response programs can be tailored based on the users' consumption patterns, which in turn is extracted from new, large datasets.
+
+	The context of EnergyLab Nordhavn project, in which this PhD project will take place, new infrastructure can be built and innovating solutions can be tested. The EnergyLab Nordhavn project's goal is to demonstrate the possibility of implementing a smart residential quarter by transforming the standard energy system to a more reliable and cost-effective one. It focusses heavily on RES and takes advantage of geographically close infrastructure (e.g.\ heat, cooling, transport, solar, wind) supported by innovative energy solutions. The project involves more than 20 collaborators from industry, utilities, the public sector and academia.
+
+\section{Problem statement}
+	Demand response is the idea that the electricity consumption can be flexible and that flexibility can be controllable in a way that can benefit the power system. When considering the electricity consumption of one single household, it can be seen as a potential load storage (e.g.\ thermal storage, potential consumption). Some devices (e.g.\ fridge, heating, dishwasher) can be remotely controlled to turn on when the energy system delivers low cost electricity or to turn off during high price periods. The demand-side flexibility corresponds to the sum of all these individual electric loads responding in unison. The diversity of the individual loads contributes also to the overall demand-side flexibility as they show different characteristics in terms of amplitude, reactivity or hourly availability.
+	
+	The utilization of demand-side flexibility raises fundamental questions, like what are the limits of demand-side flexibility? How can it be quantified and characterized? 
+
+	Load profiles are also a key tool in electricity pricing as well as for operational forecasting. As it is now, it is not implemented in a dynamic manner, which is where the flexibility could be exploited. Therefore dynamic load profiles will also have an impact on the operative side as a tool for planning.
+	
+	The limits of the demand-side flexibility are actually defined at the end-user level, as a user's consumption is the sum of a specific set of electric appliances. The way customers use these appliances, their habits and the composition of the household create different shapes of load profiles. Taking all these factors and their temporal variations into account is challenging but necessary to define the limits of the demand-side flexibility. Load profiles are already used for operational forecasting or for pricing purposes~\cite{Ramos2013,figueiredo2005,kitayama2002}, however methods for load profiling to specify flexibility characteristics are not implemented yet.
+
+
+	%This complexity in the flexibility of the demand definition can be explained by the nature of the demand composed of customers/consumers who have different behavior, habits and more simply characteristics. In energy systems, we talk about load behavior. Nevertheless this wording focus on the nature of the appliances connected to the grid and omit the key aspect in this matter which is the human behavior. There is not one flexibility but there are as many flexibility as number of customers. With a human centered perspective the flexibility can be seen as the `comfort zone', or marginal comfort of the customer. In other words, to which extend can he accept his standard use of an appliance to be modified. Indeed, this aspect on the comfort will be closely linked to the appliance characteristics,the load of the oven could not be moved as much as the one from the dishwasher for example.
+
+	%Dealing with technology and human, the focus should not be only on technology if we want it to be adopted by the customer. Therefore 
+	%The expansion of the RES penetration increases the variability and the uncertainty of the electricity production as a result of the inherent fluctuating and variable nature of the resource. Quantification of the RES production capacities is nowadays well known~\cite{Lei2009}, however there is a lack of knowledge in how to characterize, identify and quantify possible room for flexibility at different level of the grid (individual, feeder, etc.) at the demand side(ref).
+
+	%The era of the ICT combine with the development of modern data mining techniques have made possible the exploitation of large amount of data from electric consumption. Load profiling is a standard way to summarize the demand characteristics, as the load shape, as well as the daily peak load, are vital factors in planning the production and pricing of electricity. Often load profiling consists mainly in generating typical load profiles~\cite{Ramos2013,figueiredo2005,kitayama2002}, the variability of each individual consumption remains unexploited. 
+
+	%The improvement of smart grid solution is located in the exploitation of this individual consumptions variability which with a better understanding of the customer behavior (e.g. definition of comfort zones when working with electric heating) could lead to a clear definition of the demand flexibility. This would be beneficiary to DR implementation.
+
+% individual load profiles and variability evaluation
+% 	aggregated load profiling geographically or according to their likelihood
+
+
+% 	Development of new methods for load profiling accounting for flexibility characteristics (also for operational forecasting of conditional dynamic elasticity) to be used in investment, planning and load scenarios studies
+
+\section{Approach}
+	%Standard statistics come with information on the uncertainty of estimated value from a variable/feature, and the uncertainty is actually calculated based on the variability of the variable/feature around the estimate. The uncertainty is as important as the estimates and for some applications it is even more valuable as gives the reliability of the estimated value. By transposition of this concept from statistics to the load research field, the flexibility corresponds to the variability around the averaged load profile. The variability could be calculated on the historical consumption data. As such it does not follow an experimental design and therefore the calculated variability is not obtained in a structured manner. Thus the flexibility is the known variability from empirical data plus the potential variability (corresponding to unobserved parts in the empirical data) of the consumption.
+	
+ 	The main goal of this PhD work is to explore new methodologies for load profiling to define flexibility characteristics. The task will be data driven and based on available data regarding consumption, households' equipment and demographics. A literature review of data mining techniques for pattern recognition and advanced clustering technique will be necessary to define the state-of-the-art and evaluate applications to the aforementioned problem. Pattern recognition techniques are used to identify similarities in profiles and define typical load profiles displaying habitual behaviors~\cite{Abreu2012}. A first step towards patterns recognition would be to build dynamic models of individual consumption, summarizing individual load profiles and their variability at any time. Pattern recognition technique will then be the link to generate clusters corresponding to groups of end-users with similar household characteristics and habits~\cite{albert2013}. A particular emphasize will be put on keeping a human approach during the data analysis as it is proven from previous experiments that the acceptance of such low energy neighborhood relies on end-users' satisfaction~\cite{Mlecnik2012}.
+ 	
+ 	Modelling approaches will be used on load flexibility profiles to identify the different states of flexibility. Markov switching models have been previously used to identify different states in time-series of consumption. Thus focus could be centered on periods of high flexibility to obtain more details about the load behavior in these periods. Disaggregation of the energy consumption using the factorial hidden Markov model will generate single consumption time-series for each appliance~\cite{kolter2011}. Factorial hidden Markov model is a non intrusive way to obtain estimates of single time-series for the various appliances, as the only other way is to install electric meters for each devices. The thorough analysis of the single time-series will reveal which devices are contributing to flexibility and explain behavior patterns of electricity usage.
+
+ 	To start with, this approach will be used for load profiling and descriptive analysis. As it will be model based, forecasting of the loads will be possible, which could subsequently be used for scheduling electricity consumption.
+
+% 	Method: A combination of advanced clustering methods, hierarchical modeling, as well as decoding based on Markov-switching dynamic models, will be developed for revealing the characteristics of individual customers (and group of customers) in terms of flexibility and new energy usage. Such an approach will be used both for data analysis (load profiling) and for operational forecasting.
+% 	Milestones \& results:
+% 	M1: Benchmarking of existing approaches to load profiling and operational forecasting of load (accounting for conditional dynamic elasticity) for individual and aggregate customers
+% 	M2: Proposal and evaluation of new tools for load profiling based on recent statistical, signal processing and data mining techniques
+% 	M3: Development and evaluation of general framework for load forecasting at various time scales, form a few minutes to a few years, accounting for new flexibility and energy usage
+	
+\bibliographystyle{IEEEtran}
+\bibliography{references}
+\end{document}
